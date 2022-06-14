@@ -16,7 +16,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UserDaoImpl extends AbstractUserDAO implements UserDaoInter {
+public class UserDaoImpl extends AbstractDAO implements UserDaoInter {
     
     private User getUser(ResultSet rs)throws Exception{
         UserSkillDaoInter impl1=new UserSkillDaoImpl();
@@ -97,11 +97,12 @@ public class UserDaoImpl extends AbstractUserDAO implements UserDaoInter {
     public User getUserById(int id) {
         User u=null;
         try(Connection c = connect();){
-            Statement st =c.createStatement();
-            st.execute("SELECT u.*, c.country_name as birthplace ,n.nationality as nationality " +
+            PreparedStatement st =c.prepareStatement("SELECT u.*, c.country_name as birthplace ,n.nationality as nationality " +
                         "from resume.user u " +
                         "left join resume.country_and_nationality c on u.birdthplace_id =c.id " +
-                        "left join resume.country_and_nationality n on u.nationality_id =n.id where u.id="+id);
+                        "left join resume.country_and_nationality n on u.nationality_id =n.id where u.id=?");
+            st.setInt(1, id);
+            st.execute();
             ResultSet rs=st.getResultSet();
             while (rs.next()) {
                 u=getUser(rs);

@@ -4,7 +4,9 @@
  */
 
 package com.company.main;
-import com.company.dao.inter.EmploymentHistoryDaoInter;
+import com.company.dao.inter.CountryDaoInter;
+import com.company.dao.inter.SkillDaoInter;
+
 
 
 /**
@@ -16,8 +18,8 @@ public class Main {
     public static void main(String[] args) throws Exception {
 
         //UserDaoInter impl1=Context.InstanceUserDao();
-        EmploymentHistoryDaoInter impl1=Context.InstanceEmploymentHistoryDao();
-        System.out.println(impl1.getAllEmploymentHistoryById(1));
+        CountryDaoInter impl1=Context.InstanceCountryDao();
+        System.out.println(impl1.getAllCountry());
         
         /*User u1=impl1.getUserById(1);
         System.out.println(u1);

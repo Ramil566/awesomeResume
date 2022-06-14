@@ -16,7 +16,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class UserSkillDaoImpl extends AbstractUserDAO implements UserSkillDaoInter {
+public class UserSkillDaoImpl extends AbstractDAO implements UserSkillDaoInter {
     
     
     private UserSkill getUserSkill(ResultSet rs)throws Exception{

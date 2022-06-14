@@ -17,11 +17,11 @@ import java.util.List;
  *
  * @author Ramil Abbaszade
  */
-public class CountryDaoImpl extends AbstractUserDAO implements CountryDaoInter{
+public class CountryDaoImpl extends AbstractDAO implements CountryDaoInter{
 
     private CountryAndNationality getCountry(ResultSet rs) throws Exception{
         Integer id=rs.getInt("id");
-        String country=rs.getString("coutry_name");
+        String country=rs.getString("country_name");
         return new CountryAndNationality(id,country,null);   
     }
     

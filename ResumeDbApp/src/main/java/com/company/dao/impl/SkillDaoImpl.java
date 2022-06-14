@@ -16,7 +16,7 @@ import java.util.List;
  *
  * @author Ramil Abbaszade
  */
-public class SkillDaoImpl extends AbstractUserDAO implements SkillDaoInter{
+public class SkillDaoImpl extends AbstractDAO implements SkillDaoInter{
 
     private Skill getSkill(ResultSet rs) throws Exception{
         Integer id=rs.getInt("id");
@@ -29,7 +29,7 @@ public class SkillDaoImpl extends AbstractUserDAO implements SkillDaoInter{
         List<Skill> result=new ArrayList();
         Skill s=null;
         try(Connection c = connect();){
-            PreparedStatement stmt=c.prepareStatement("SELECT * from resume.skill;");
+            PreparedStatement stmt=c.prepareStatement("SELECT * from resume.skills;");
             stmt.execute();
             ResultSet rs=stmt.getResultSet();
             while (rs.next()) {

@@ -17,7 +17,7 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EmploymentHistoryDaoImpl extends AbstractUserDAO implements EmploymentHistoryDaoInter {
+public class EmploymentHistoryDaoImpl extends AbstractDAO implements EmploymentHistoryDaoInter {
 
     private EmploymentHistory getEmploymentHistory(ResultSet rs)throws Exception{
         int id=rs.getInt("id");
