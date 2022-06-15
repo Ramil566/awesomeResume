@@ -11,6 +11,7 @@ public interface UserDaoInter {
     public void removeUserById(int id) throws Exception;
     public void updateUser(User u) throws Exception;
     public User getUserById(int id);
+    public boolean addUser(User u);
 
 
 }

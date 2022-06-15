@@ -1,17 +1,13 @@
 package com.company.dao.impl;
 
-import com.company.entity.CountryAndNationality;
 import com.company.entity.Skill;
 import com.company.entity.User;
 import com.company.entity.UserSkill;
-import com.company.dao.inter.UserDaoInter;
 import com.company.dao.inter.UserSkillDaoInter;
 
 import java.sql.Connection;
-import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import java.sql.Statement;
 
 import java.util.ArrayList;
 import java.util.List;
