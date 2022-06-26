@@ -4,6 +4,7 @@
  */
 package com.company.dao.inter;
 
+
 import com.company.entity.Skill;
 import java.util.List;
 
@@ -13,4 +14,10 @@ import java.util.List;
  */
 public interface SkillDaoInter {
     public List<Skill> getAllSkill();
+    public int addSkill(Skill s);
+    public Skill getSkillByName(String name);
+    public Skill getSkillById(int id);
+    public void removeSkillByName(String name);
+    public void removeSkillById(int id);
+    public void updateSkillById(Skill s);
 }

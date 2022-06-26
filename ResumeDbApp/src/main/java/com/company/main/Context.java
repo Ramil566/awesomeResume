@@ -2,11 +2,13 @@ package com.company.main;
 
 import com.company.dao.impl.CountryDaoImpl;
 import com.company.dao.impl.EmploymentHistoryDaoImpl;
+import com.company.dao.impl.NationalityDaoImpl;
 import com.company.dao.impl.SkillDaoImpl;
 import com.company.dao.impl.UserDaoImpl;
 import com.company.dao.impl.UserSkillDaoImpl;
 import com.company.dao.inter.CountryDaoInter;
 import com.company.dao.inter.EmploymentHistoryDaoInter;
+import com.company.dao.inter.NationalityDaoInter;
 import com.company.dao.inter.SkillDaoInter;
 import com.company.dao.inter.UserDaoInter;
 import com.company.dao.inter.UserSkillDaoInter;
@@ -28,10 +30,12 @@ public class Context {
     }
     
     public static CountryDaoInter InstanceCountryDao(){
-         return new CountryDaoImpl();
+        return new CountryDaoImpl();
     }
     
-    
+    public static NationalityDaoInter InstanceNationalityDao(){
+        return new NationalityDaoImpl();
+    }
      
-     
+ 
 }

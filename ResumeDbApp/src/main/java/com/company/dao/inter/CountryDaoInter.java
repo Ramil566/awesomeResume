@@ -4,7 +4,7 @@
  */
 package com.company.dao.inter;
 
-import com.company.entity.CountryAndNationality;
+import com.company.entity.Country;
 import java.util.List;
 
 /**
@@ -12,5 +12,17 @@ import java.util.List;
  * @author Ramil Abbaszade
  */
 public interface CountryDaoInter {
-    public List<CountryAndNationality> getAllCountry();
+    public List<Country> getAllCountry();
+    
+    public Country getCountryByName(String name);
+    
+    public Country getCountryById(int id);
+    
+    public void removeCountryById(int id);
+    
+    public void removeCountryByName(String name);
+    
+    public void updateCountryById(Country c);
+    
+    public int addCountry(Country c);
 }

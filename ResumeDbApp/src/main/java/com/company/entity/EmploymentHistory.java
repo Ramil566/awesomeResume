@@ -21,7 +21,7 @@ public class EmploymentHistory {
     public EmploymentHistory() {
     }
 
-    public EmploymentHistory(int id, String header, Date beginDate, Date endDate, String jobDescription, User user) {
+    public EmploymentHistory(Integer id, String header, Date beginDate, Date endDate, String jobDescription, User user) {
         this.id = id;
         this.header = header;
         this.beginDate = beginDate;
@@ -30,11 +30,11 @@ public class EmploymentHistory {
         this.user = user;
     }
 
-    public int getId() {
+    public Integer getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(Integer id) {
         this.id = id;
     }
 

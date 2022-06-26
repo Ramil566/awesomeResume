@@ -11,10 +11,11 @@ public class User {
     private String phone;
     private String address;
     private String profileDescription;
-    CountryAndNationality nationality;
-    CountryAndNationality birthplace;  
+    Nationality nationality;
+    Country birthplace;  
     Date birthdate;
     List<UserSkill> skills; 
+    List<EmploymentHistory> employmentHistory;
     
     public User() {
     }
@@ -22,19 +23,27 @@ public class User {
     public User(int id) {
         this.id=id;
     }
-
-    public User(int id, String name, String surname, String email, String phone,String address, String profile_description, CountryAndNationality nationality, CountryAndNationality birthplace, Date birthdate, List<UserSkill> skills) {
+    public User(int id, String name, String surname, String email, String phone, String address, String profileDescription, Nationality nationality, Country birthplace, Date birthdate, List<UserSkill> skills, List<EmploymentHistory> employmentHistory) {
         this.id = id;
         this.name = name;
         this.surname = surname;
         this.email = email;
         this.phone = phone;
-        this.address=address;
-        this.profileDescription = profile_description;
+        this.address = address;
+        this.profileDescription = profileDescription;
         this.nationality = nationality;
         this.birthplace = birthplace;
         this.birthdate = birthdate;
         this.skills = skills;
+        this.employmentHistory = employmentHistory;
+    }
+
+    public List<EmploymentHistory> getEmploymentHistory() {
+        return employmentHistory;
+    }
+
+    public void setEmploymentHistory(List<EmploymentHistory> employmentHistory) {
+        this.employmentHistory = employmentHistory;
     }
 
     public int getId() {
@@ -85,19 +94,19 @@ public class User {
         this.profileDescription = profileDescription;
     }
 
-    public CountryAndNationality getNationality() {
+    public Nationality getNationality() {
         return nationality;
     }
 
-    public void setNationality(CountryAndNationality nationality) {
+    public void setNationality(Nationality nationality) {
         this.nationality = nationality;
     }
 
-    public CountryAndNationality getBirthplace() {
+    public Country getBirthplace() {
         return birthplace;
     }
 
-    public void setBirthplace(CountryAndNationality birthplace) {
+    public void setBirthplace(Country birthplace) {
         this.birthplace = birthplace;
     }
 
@@ -127,8 +136,9 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" + "id=" + id + ", name=" + name + ", surname=" + surname + ", email=" + email + ", phone=" + phone +", address=" + address + ", profile_description=" + profileDescription + ", nationality=" + nationality + ", birthplace=" + birthplace + ", birthdate=" + birthdate + ", skills=" + skills + '}';
+        return "User{" + "id=" + id + ", name=" + name + ", surname=" + surname + ", email=" + email + ", phone=" + phone + ", address=" + address + ", profileDescription=" + profileDescription + ", nationality=" + nationality + ", birthplace=" + birthplace + ", birthdate=" + birthdate + ", skills=" + skills + ", employmentHistory=" + employmentHistory + '}';
     }
+
 
 
     

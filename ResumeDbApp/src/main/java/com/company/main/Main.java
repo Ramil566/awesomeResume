@@ -4,10 +4,14 @@
  */
 
 package com.company.main;
+
 import com.company.dao.inter.CountryDaoInter;
+import com.company.dao.inter.EmploymentHistoryDaoInter;
+import com.company.dao.inter.NationalityDaoInter;
 import com.company.dao.inter.SkillDaoInter;
-
-
+import com.company.dao.inter.UserDaoInter;
+import com.company.dao.inter.UserSkillDaoInter;
+import com.company.entity.Skill;
 
 /**
  *
@@ -16,19 +20,36 @@ import com.company.dao.inter.SkillDaoInter;
 public class Main {
 
     public static void main(String[] args) throws Exception {
-
-        //UserDaoInter impl1=Context.InstanceUserDao();
-        CountryDaoInter impl1=Context.InstanceCountryDao();
-        System.out.println(impl1.getAllCountry());
+        /*CountryDaoInter countryDaoInter=Context.InstanceCountryDao();
+        System.out.println(countryDaoInter.getAllCountry());
+        System.out.println("---------------------------------------------------");
+        System.out.println();
         
-        /*User u1=impl1.getUserById(1);
-        System.out.println(u1);
-        u1.setSurname("Abbaszada");
-        impl1.updateUser(u1);
-        System.out.println(impl1.getUserById(1));*/
-
-        //List<UserSkill> l1=impl1.getAllSkillByUserId(1);
-        //System.out.println(l1);
+        NationalityDaoInter nationalityDaoInter=Context.InstanceNationalityDao();
+        System.out.println(nationalityDaoInter.getAllNationality());
+        System.out.println("---------------------------------------------------");
+        System.out.println();
+        
+        EmploymentHistoryDaoInter employmentHistoryDaoInter=Context.InstanceEmploymentHistoryDao();
+        System.out.println(employmentHistoryDaoInter.getAllEmploymentHistoryById(1));
+        System.out.println("---------------------------------------------------");
+        System.out.println();
+        */
+        SkillDaoInter skillDaoInter=Context.InstanceSkillDao();
+        System.out.println(skillDaoInter.getAllSkill());
+        System.out.println("---------------------------------------------------");
+        skillDaoInter.addSkill(new Skill(null, "SCADA"));
+        System.out.println();
+        
+        /*UserSkillDaoInter userSkillDaoInter=Context.InstanceUserSkillDao();
+        System.out.println(userSkillDaoInter.getAllSkillByUserId(1));
+        System.out.println("---------------------------------------------------");
+        System.out.println();
+        
+        UserDaoInter userDaoInter=Context.InstanceUserDao();
+        System.out.println(userDaoInter.getUserById(1));
+        System.out.println("---------------------------------------------------");
+        System.out.println();*/
         
     }
 

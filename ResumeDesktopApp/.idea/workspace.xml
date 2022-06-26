@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a41d3671-d856-47c3-aea6-b0c8c390418b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/resume/main/MainUser1.form" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/company/resume/main/MainUser1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbApp/src/main/java/com/company/dao/impl/CountryDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeDbApp/src/main/java/com/company/dao/impl/CountryDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbApp/src/main/java/com/company/dao/impl/EmploymentHistoryDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeDbApp/src/main/java/com/company/dao/impl/EmploymentHistoryDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbApp/src/main/java/com/company/dao/impl/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeDbApp/src/main/java/com/company/dao/impl/UserDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbApp/src/main/java/com/company/dao/impl/UserSkillDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeDbApp/src/main/java/com/company/dao/impl/UserSkillDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbApp/src/main/java/com/company/dao/inter/CountryDaoInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeDbApp/src/main/java/com/company/dao/inter/CountryDaoInter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbApp/src/main/java/com/company/dao/inter/EmploymentHistoryDaoInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeDbApp/src/main/java/com/company/dao/inter/EmploymentHistoryDaoInter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbApp/src/main/java/com/company/dao/inter/SkillDaoInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeDbApp/src/main/java/com/company/dao/inter/SkillDaoInter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbApp/src/main/java/com/company/dao/inter/UserDaoInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeDbApp/src/main/java/com/company/dao/inter/UserDaoInter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbApp/src/main/java/com/company/dao/inter/UserSkillDaoInter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeDbApp/src/main/java/com/company/dao/inter/UserSkillDaoInter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbApp/src/main/java/com/company/entity/CountryAndNationality.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeDbApp/src/main/java/com/company/entity/Nationality.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbApp/src/main/java/com/company/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeDbApp/src/main/java/com/company/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbApp/src/main/java/com/company/main/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeDbApp/src/main/java/com/company/main/Context.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbApp/src/main/java/com/company/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeDbApp/src/main/java/com/company/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbApp/target/ResumeDbApp-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeDbApp/target/ResumeDbApp-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbApp/target/classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbApp/target/classes/com/company/dao/impl/CountryDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeDbApp/target/classes/com/company/dao/impl/CountryDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbApp/target/classes/com/company/dao/impl/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeDbApp/target/classes/com/company/dao/impl/UserDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbApp/target/classes/com/company/dao/impl/UserSkillDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeDbApp/target/classes/com/company/dao/impl/UserSkillDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbApp/target/classes/com/company/dao/inter/CountryDaoInter.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeDbApp/target/classes/com/company/dao/inter/CountryDaoInter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbApp/target/classes/com/company/entity/CountryAndNationality.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbApp/target/classes/com/company/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeDbApp/target/classes/com/company/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbApp/target/classes/com/company/main/Context.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeDbApp/target/classes/com/company/main/Context.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbApp/target/classes/com/company/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeDbApp/target/classes/com/company/main/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbApp/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeDbApp/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbApp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeDbApp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbApp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../ResumeDbApp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ResumeDbApp/target/test-classes/.netbeans_automatic_build" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/resume/main/MainUser.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/company/resume/main/MainUser.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2AnzHdYajY1jWvNoZlPqScnkw7y" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a41d3671-d856-47c3-aea6-b0c8c390418b" name="Changes" comment="" />
+      <created>1655660052260</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655660052260</updated>
+      <workItem from="1655660054234" duration="58000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
